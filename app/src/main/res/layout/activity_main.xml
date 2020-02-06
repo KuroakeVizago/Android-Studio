@@ -10,9 +10,8 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
-
     <EditText
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="50dp"
         android:id="@+id/Email_txt"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
