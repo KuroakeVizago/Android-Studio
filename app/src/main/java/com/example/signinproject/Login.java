@@ -43,15 +43,6 @@ public class Login extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        btn_return = findViewById(R.id.btn_return);
-        btn_return.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Login.this, FirstView.class);
-                startActivity(intent);
-            }
-        });
-
         Email_txt = findViewById(R.id.Email_txt);
         Pass_txt = findViewById(R.id.Password_txt);
 
