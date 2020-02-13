@@ -21,7 +21,7 @@ public class SplashScreen extends AppCompatActivity {
                     sleep(2*1000);
 
                     // After 5 seconds redirect to another intent
-                    Intent intent = new Intent(SplashScreen.this, FirstView.class);
+                    Intent intent = new Intent(SplashScreen.this, ControlClass.class);
                     startActivity(intent);
 
                     //Remove activity
